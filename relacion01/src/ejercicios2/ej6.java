@@ -12,30 +12,39 @@ public class ej6 {
 		
 		Scanner teclado = new Scanner (System.in);
 		
-		System.out.println("Introduce el parámetro A");
-		double pa = teclado.nextDouble();
+		System.out.println("Introduce el primer parámetro A");
+		double pa1 = teclado.nextDouble();
 		
-		System.out.println("Introduce el parámetro B");
-		double pb = teclado.nextDouble();
+		System.out.println("Introduce el segundo parámetro A");
+		double pa2 = teclado.nextDouble();
 		
-		System.out.println("Introduce el parámetro C");
-		double pc = teclado.nextDouble();
+		System.out.println("Introduce el primer parámetro B");
+		double pb1 = teclado.nextDouble();
+		
+		System.out.println("Introduce el segundo parámetro B");
+		double pb2 = teclado.nextDouble();
+		
+		System.out.println("Introduce el primer parámetro C");
+		double pc1 = teclado.nextDouble();
+		
+		System.out.println("Introduce el segundo parámetro C");
+		double pc2 = teclado.nextDouble();
 		
 		
-		if (pa/pa!=pb/pb)
+		if (pa1/pa2!=pb1/pb2)
 		{
 			System.out.println("Son secantes");
 			
-			if (pa/pb!=-pb/pa)
+			if (pa1/pb1!=-pb2/pa2)
 			{
 				System.out.println("y perpendiculares");
 			}
 		}
-		else if (pa/pa==pb/pb)
+		else if (pa1/pa2==pb1/pb2)
 		{
 				System.out.println("Son paralelas");
 			
-			if (pa/pa==pb/pb&&pb/pb==pc/pc)
+			if (pa1/pa2==pb1/pb2&&pb1/pb2==pc1/pc2)
 			{
 				System.out.println("y coincidentes");
 			}

@@ -17,24 +17,24 @@ public class ej9 {
 		int numh = teclado.nextInt();
 		
 		int impuesto=0;
-		
 		float impuestofinal;
 		
 		
 		if (sueldo>=0&&sueldo<=1000)
 		{
-			System.out.println("Impuesto no aplicable");
+			System.out.println("Impuesto del 0% y descuento no aplicable");
 		}
 		else if (sueldo>1000&&sueldo<=1600)
 		{
 			impuesto=5;
-			if (numh<=10)
+			
+			if (numh>=1&&numh<=10)
 			{
-				impuesto=impuesto+numh;
+				impuesto=impuesto-numh;
 			}
-			else
+			else if (numh>11)
 			{
-				impuesto=impuesto+10;
+				impuesto=impuesto-10;
 			}
 			
 			impuestofinal=(impuesto*sueldo/100);
@@ -46,13 +46,13 @@ public class ej9 {
 		{
 			impuesto=10;
 			
-			if (numh<=10)
+			if (numh>=1&&numh<=10)
 			{
-				impuesto=impuesto+numh;
+				impuesto=impuesto-numh;
 			}
-			else
+			else if (numh>11)
 			{
-				impuesto=impuesto+10;
+				impuesto=impuesto-10;
 			}
 			
 			impuestofinal=(impuesto*sueldo/100);
@@ -60,17 +60,17 @@ public class ej9 {
 			System.out.println("Impuesto del "+impuesto+"%.");
 			System.out.println("Impuestos a pagar "+impuestofinal);
 		}
-		else if (sueldo>3000&&sueldo>=4600)
+		else if (sueldo>3000&&sueldo<=4600)
 		{
 			impuesto=15;
 			
-			if (numh<=10)
+			if (numh>=1&&numh<=10)
 			{
-				impuesto=impuesto+numh;
+				impuesto=impuesto-numh;
 			}
-			else
+			else if (numh>11)
 			{
-				impuesto=impuesto+10;
+				impuesto=impuesto-10;
 			}
 			
 			impuestofinal=(impuesto*sueldo/100);
@@ -82,13 +82,13 @@ public class ej9 {
 		{
 			impuesto=20;
 			
-			if (numh<=10)
+			if (numh>=1&&numh<=10)
 			{
-				impuesto=impuesto+numh;
+				impuesto=impuesto-numh;
 			}
-			else
+			else if (numh>11)
 			{
-				impuesto=impuesto+10;
+				impuesto=impuesto-10;
 			}
 			
 			impuestofinal=(impuesto*sueldo/100);
