@@ -26,27 +26,27 @@ public class ej8 {
 		String oper = teclado.nextLine();		
 		
 		
-		switch (oper)
+		switch (oper) // %.2f
 		{
 			case "suma":
-				System.out.printf("El resultado es %f",num1+num2);
+				System.out.printf("El resultado es %.2f",num1+num2);
 			break;
 			
 			case "resta":
-				System.out.printf("El resultado es %f",num1-num2);
+				System.out.printf("El resultado es %.2f",num1-num2);
 			break;
 			
 			case "multiplicacion":
-				System.out.printf("El resultado es %f",num1*num2);
+				System.out.printf("El resultado es %.2f",num1*num2);
 			break;
 			
 			case "division":
-				System.out.printf("El resultado es %f",num1/num2);
+				System.out.printf("El resultado es %.2f",num1/num2);
 			break;
 			
 			case "raiz":
 				num1 = Math.sqrt(num1);
-				System.out.printf("El resultado es %f",Math.pow(num1, num2));
+				System.out.printf("El resultado es %.2f",Math.pow(num1, num2));
 		}
 				
 		teclado.close();
