@@ -33,6 +33,8 @@ public class ej1 {
 			
 		}
 		
+		teclado.close();
+		
 	}
 
 }

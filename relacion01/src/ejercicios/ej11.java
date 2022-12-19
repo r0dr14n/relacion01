@@ -12,7 +12,6 @@ public class ej11 {
 		System.out.println("Introduce un número de 3 cifras");
 		int num = teclado.nextInt();
 		
-		
 		double num1 = (double) Math.floor(num/100);
 		
 		double nump1 = num1*100;
