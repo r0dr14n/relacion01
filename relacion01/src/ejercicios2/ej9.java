@@ -13,11 +13,8 @@ public class ej9 {
 		System.out.println("Introduce el sueldo bruto");
 		float sueldo = teclado.nextFloat();
 		
-	
-		
 		System.out.println("Introduce el numero de hijos");
 		int numh = teclado.nextInt();
-		
 		
 		int impuesto=0;
 		

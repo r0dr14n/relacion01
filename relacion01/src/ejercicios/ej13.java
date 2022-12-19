@@ -21,10 +21,10 @@ public class ej13 {
 		
 		int numero=dnum+mnum+fnum;
 		
-		double num1 = (double) Math.floor(numero/1000); //1
-		double num2 = (double) Math.floor(numero/100); //19
-		double num3 = (double) Math.floor(numero/10); //198
-		double num4 = (double) Math.floor(numero/1); //1980
+		double num1 = (double) Math.floor(numero/1000);
+		double num2 = (double) Math.floor(numero/100);
+		double num3 = (double) Math.floor(numero/10);
+		double num4 = (double) Math.floor(numero/1);
 		
 		
 		double nump1 = (num2*100)-num1*1000;
@@ -35,17 +35,17 @@ public class ej13 {
 		
 		double nump3 = (num4*1)-num3*10;
 		
-		int fnum1 = (int) num1; //1
-		int fnum2 = (int) nump1; //9
-		int fnum3 = (int) nump2; //8
-		int fnum4 = (int) nump3; //0
+		int fnum1 = (int) num1;
+		int fnum2 = (int) nump1;
+		int fnum3 = (int) nump2;
+		int fnum4 = (int) nump3;
 		
-		double numsuerte1 =fnum1+fnum2+fnum3+fnum4; //26
+		double numsuerte1 =fnum1+fnum2+fnum3+fnum4;
 		
 		
-			System.out.println("El número de la suerte es "+numsuerte1);
+		System.out.println("El número de la suerte es "+numsuerte1);
 			
-			teclado.close();
+		teclado.close();
 		
 	}
 

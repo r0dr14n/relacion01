@@ -25,6 +25,7 @@ public class ej9 {
 		System.out.println("El área del triangulo es "+area);
 		
 		teclado.close();
+		
 	}
 
 }

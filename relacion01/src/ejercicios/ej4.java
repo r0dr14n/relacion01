@@ -20,6 +20,7 @@ public class ej4 {
 		System.out.println("La temperatura en Fahrenheit es "+res);
 	
 		teclado.close();
+		
 	}
 
 }

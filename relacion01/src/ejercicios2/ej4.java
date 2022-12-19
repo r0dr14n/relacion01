@@ -9,27 +9,28 @@ public class ej4 {
 		triángulo con esas dimensiones*/
 			
 			
-			Scanner teclado = new Scanner (System.in);
+		Scanner teclado = new Scanner (System.in);
 
-			System.out.println("Introduce la longitud del primer lado");
-			int lado1 = teclado.nextInt();
+		System.out.println("Introduce la longitud del primer lado");
+		int lado1 = teclado.nextInt();
+		
+		System.out.println("Introduce la longitud del segundo lado");
+		int lado2 = teclado.nextInt();
+		
+		System.out.println("Introduce la longitud del tercer lado");
+		int lado3 = teclado.nextInt();
 			
-			System.out.println("Introduce la longitud del segundo lado");
-			int lado2 = teclado.nextInt();
-			
-			System.out.println("Introduce la longitud del tercer lado");
-			int lado3 = teclado.nextInt();
-			
-			if ((lado1+lado2)>lado3||(lado2+lado3)>lado1||(lado3+lado1)>lado2)
-			{
-				System.out.println("El triangulo es posible");
-			}
-			else
-			{
-				System.out.println("El triangulo no es posible");
-			}
-			
-			teclado.close();
+		if ((lado1+lado2)>lado3||(lado2+lado3)>lado1||(lado3+lado1)>lado2)
+		{
+			System.out.println("El triangulo es posible");
+		}
+		else
+		{
+			System.out.println("El triangulo no es posible");
+		}
+		
+		teclado.close();
+		
 	}
 
 }

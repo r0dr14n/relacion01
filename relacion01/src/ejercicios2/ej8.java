@@ -46,7 +46,6 @@ public class ej8 {
 			
 			case "raiz":
 				num1 = Math.sqrt(num1);
-				
 				System.out.printf("El resultado es %f",Math.pow(num1, num2));
 		}
 				

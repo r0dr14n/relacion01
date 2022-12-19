@@ -41,7 +41,6 @@ public class ej2 {
 			{
 				System.out.println(num1+" es el menor");
 			}
-			
 		}
 		else
 		{

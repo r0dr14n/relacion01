@@ -19,6 +19,7 @@ public class ej6 {
 		System.out.println("La velocidad en metros por segundo es "+met);
 		
 		teclado.close();
+		
 	}
 
 }

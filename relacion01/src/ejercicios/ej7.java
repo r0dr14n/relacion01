@@ -24,6 +24,7 @@ public class ej7 {
 		System.out.println("La longitud de la hipotenusa es "+triangulo);
 		
 		teclado.close();
+		
 	}
 
 }

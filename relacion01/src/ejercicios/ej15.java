@@ -17,6 +17,8 @@ public class ej15 {
 		
 		System.out.println("La temperatura en grados kelvin es "+gkelvin);
 		
+		teclado.close();
+		
 	}
 
 }

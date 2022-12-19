@@ -17,11 +17,11 @@ public class ej1 {
 		System.out.println("Introduce otro numero: ");
 		num2 = teclado.nextInt();
 		
-		//System.out.println("El numero 1 es "+num1+" el numero 2 es "+num2);
 		
-		System.out.printf("El numero 1 es %d, y el numero 2 es %d",num1,num2);
+		System.out.printf("El primer numero es %d, y el segundo numero es %d",num1,num2);
 		
 		teclado.close();
+		
 	}
 
 }

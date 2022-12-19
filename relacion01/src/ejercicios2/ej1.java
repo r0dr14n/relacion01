@@ -6,7 +6,7 @@ public class ej1 {
 
 	public static void main(String[] args) {
 		/*Algoritmo que pida dos enteros y que indique el mayor y el menor, o si ambos son 
-	iguales*/
+		iguales*/
 		
 		Scanner teclado = new Scanner (System.in);
 		
@@ -19,18 +19,14 @@ public class ej1 {
 		if (num1>num2)
 		{
 			System.out.println(num1+" es mayor que "+num2);
-			
 		}
-		else if (num1<num2) {
-			
+		else if (num1<num2) 
+		{
 			System.out.println(num2+" es menor que "+num1);
-			
 		}
 		else
 		{
-			
 			System.out.println(num1+" y "+num2+" son iguales");
-			
 		}
 		
 		teclado.close();

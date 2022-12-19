@@ -26,9 +26,14 @@ public class ej12 {
 		int nump4 = (int) num4;
 		int nump5 = (int) num5;
 		
-		System.out.printf("El resultado sería "+nump1+" "+nump2+" "+nump3+" "+nump4+" "+nump5);
+		System.out.println(nump1);
+		System.out.println(nump2);
+		System.out.println(nump3);
+		System.out.println(nump4);
+		System.out.println(nump5);
 		
 		teclado.close();
+		
 	}
 
 }

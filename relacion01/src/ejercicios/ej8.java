@@ -22,6 +22,7 @@ public class ej8 {
 		System.out.println("El volumen es "+volumen);
 		
 		teclado.close();
+		
 	}
 
 }

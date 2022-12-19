@@ -22,6 +22,7 @@ public class ej5 {
 		System.out.printf("La longitud de la circunferencia es "+longitud+" y el área es "+area);
 		
 		teclado.close();
+		
 	}
 
 }
