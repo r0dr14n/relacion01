@@ -15,39 +15,39 @@ public class ej8 {
 		
 		
 		System.out.println("Introduce el primer número");
-		double num1 = teclado.nextInt();
+		double num1 = teclado.nextDouble();
 		
 		System.out.println("Introduce el segundo número");
-		double num2 = teclado.nextInt();
+		double num2 = teclado.nextDouble();
+		
+		teclado.nextLine();
 		
 		System.out.println("Introduce la operacion a realizar");
-		String operando = teclado.toString();
+		String oper = teclado.nextLine();		
 		
 		
-		
-		
-		switch (operando)
+		switch (oper)
 		{
 			case "suma":
-				System.out.printf("El resultado es %d",num1+num2);
+				System.out.printf("El resultado es %f",num1+num2);
 			break;
 			
 			case "resta":
-				System.out.printf("El resultado es %d",num1-num2);
+				System.out.printf("El resultado es %f",num1-num2);
 			break;
 			
 			case "multiplicacion":
-				System.out.printf("El resultado es %d",num1*num2);
+				System.out.printf("El resultado es %f",num1*num2);
 			break;
 			
 			case "division":
-				System.out.printf("El resultado es %d",num1/num2);
+				System.out.printf("El resultado es %f",num1/num2);
 			break;
 			
 			case "raiz":
 				num1 = Math.sqrt(num1);
 				
-				System.out.printf("El resultado es %d",Math.pow(num1, num2));
+				System.out.printf("El resultado es %f",Math.pow(num1, num2));
 		}
 				
 		teclado.close();

@@ -44,6 +44,8 @@ public class ej13 {
 		
 		
 			System.out.println("El número de la suerte es "+numsuerte1);
+			
+			teclado.close();
 		
 	}
 

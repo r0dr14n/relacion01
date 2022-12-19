@@ -21,27 +21,31 @@ public class ej2 {
 		
 		if (num1>num2&&num2>num3)
 		{
-			
 			System.out.println(num3+" es el menor ");
-			
 		}
 		else if (num1<num2&&num2<num3)
 		{
-			
 			System.out.println(num1+" es el menor");
-			
 		}
 		else if (num1>num2&&num2<num3)
 		{
-			
 			System.out.println(num2+" es el menor");
+		}
+		else if (num1<num2&&num2>num3)
+		{
+			if (num1>num3)
+			{
+				System.out.println(num3+" es el menor");
+			}
+			else
+			{
+				System.out.println(num1+" es el menor");
+			}
 			
 		}
 		else
 		{
-			
 			System.out.println(num1+" "+num2+" "+num3+" son iguales");
-			
 		}
 		
 		teclado.close();
