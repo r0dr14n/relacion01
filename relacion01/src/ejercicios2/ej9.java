@@ -17,7 +17,7 @@ public class ej9 {
 		int numh = teclado.nextInt();
 		
 		int impuesto=0;
-		float impuestofinal;
+		float impuestofinal=0;
 		
 		
 		if (sueldo>=0&&sueldo<=1000)
@@ -32,7 +32,7 @@ public class ej9 {
 			{
 				impuesto=impuesto-numh;
 			}
-			else if (numh>11)
+			else if (numh>=11)
 			{
 				impuesto=impuesto-10;
 			}
@@ -50,7 +50,7 @@ public class ej9 {
 			{
 				impuesto=impuesto-numh;
 			}
-			else if (numh>11)
+			else if (numh>=11)
 			{
 				impuesto=impuesto-10;
 			}
@@ -68,7 +68,7 @@ public class ej9 {
 			{
 				impuesto=impuesto-numh;
 			}
-			else if (numh>11)
+			else if (numh>=11)
 			{
 				impuesto=impuesto-10;
 			}
@@ -86,7 +86,7 @@ public class ej9 {
 			{
 				impuesto=impuesto-numh;
 			}
-			else if (numh>11)
+			else if (numh>=11)
 			{
 				impuesto=impuesto-10;
 			}

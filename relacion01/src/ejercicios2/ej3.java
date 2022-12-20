@@ -11,36 +11,24 @@ public class ej3 {
 		Scanner teclado = new Scanner (System.in);
 			
 		System.out.println("Introduce el primer número");
-		float num1 = teclado.nextFloat(); // 10
+		float num1 = teclado.nextFloat();
 			
 		System.out.println("Introduce el segundo número");
-		float num2 = teclado.nextFloat(); // 8
+		float num2 = teclado.nextFloat();
 			
 		System.out.println("Introduce el tercer número");
-		float num3 = teclado.nextFloat(); // 6
-			
-			
-		if (num1>num2&&num2>num3)
+		float num3 = teclado.nextFloat();
+		
+		
+		if ((num2<num1&&num1<num3)||(num2>num1&&num1>num3))
+		{
+			System.out.println(num1+" es el central");
+		}	
+		else if ((num1>num2&&num2>num3)||(num1<num2&&num2<num3))
 		{
 			System.out.println(num2+" es el central ");
 		}
-		else if (num2<num1&&num1<num3)
-		{
-			System.out.println(num1+" es el central");
-		}
-		else if (num1>num3&&num3>num2)
-		{
-			System.out.println(num3+" es el central");
-		}
-		else if (num1<num2&&num2<num3)
-		{
-			System.out.println(num2+" es el central ");
-		}
-			else if (num2>num1&&num1>num3)
-		{
-			System.out.println(num1+" es el central");
-		}
-		else if (num1<num3&&num3<num2)
+		else if ((num1>num3&&num3>num2)||(num1<num3&&num3<num2))
 		{
 			System.out.println(num3+" es el central");
 		}
@@ -48,7 +36,7 @@ public class ej3 {
 		{
 			System.out.println(num1+" "+num2+" "+num3+" son iguales");
 		}
-			
+		
 		teclado.close();
 			
 	}

@@ -15,30 +15,45 @@ public class ej5 {
 		int fila1 = teclado.nextInt();
 		
 		System.out.println("Introduce la columna de la primera pieza");
-		int columna1 = teclado.nextInt();
+		int col1 = teclado.nextInt();
 		
 		System.out.println("Introduce la fila de la segunda pieza");
 		int fila2 = teclado.nextInt();
 		
 		System.out.println("Introduce la columna de la segunda pieza");
-		int columna2 = teclado.nextInt();
+		int col2 = teclado.nextInt();
 		
 		
-		if (fila1==fila2&&columna1==columna2)
-		{
-			System.out.println("Se encuentran en la misma casilla");
+		System.out.println("Algoritmo que calcula si las piezas del ajedrez están"
+				+ " en la misma fila, columna o diagonal");
+		
+		System.out.println("Fila (pieza 1):");
+		fila1 = teclado.nextInt();
+		System.out.println("Columna (pieza 1):");
+		col1 = teclado.nextInt();
+		
+		System.out.println("Fila (pieza 2):");
+		fila2 = teclado.nextInt();
+		System.out.println("Columna (pieza 2):");
+		col2 = teclado.nextInt();
+		
+		if (fila1 <1 || fila1 >8 || fila2 <1 || fila2 >8 ||
+			col1 <1 || col1 >8 || col2 <1 || col2 >8) {
+			System.out.println("Posición de pieza incorrecta");
+			System.exit(0);
 		}
-		else if (fila1!=fila2&&columna1==columna2)
-		{
-			System.out.println("Se encuentran en la misma columna");
-		}
-		else if (fila1==fila2&&columna1!=columna2)
-		{
-			System.out.println("Se encuentran en la misma fila");
-		}
-		else
-		{
-			System.out.println("No se encuentran ni en la misma fila ni en la misma columna");
+		
+		if (fila1==fila2 && col1 == col2) {
+			System.out.println("Están en la misma casilla");
+		} else if (fila1 == fila2) {
+			System.out.println("Las piezas están en la misma fila");
+		} else if (col1 == col2) {
+			System.out.println("Están en la misma columna");
+		} else if ((col1-fila1 == col2-fila2) || (fila1+col1 == fila2+col2)){
+			System.out.println("Están en la misma diagonal ");
+		} else {
+			System.out.println("No están en la misma fila, ni es la misma columna,"
+					+ "ni en la misma diagonal");
 		}
 		
 		teclado.close();

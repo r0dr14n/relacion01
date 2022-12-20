@@ -13,6 +13,7 @@ public class ej8 {
 
 		Scanner teclado = new Scanner (System.in);
 		
+		System.out.println("Funciones: suma, resta, multiplicacion, division, raiz");
 		
 		System.out.println("Introduce el primer número");
 		double num1 = teclado.nextDouble();
@@ -30,23 +31,27 @@ public class ej8 {
 		{
 			case "suma":
 				System.out.printf("El resultado es %.2f",num1+num2);
-			break;
+				break;
 			
 			case "resta":
 				System.out.printf("El resultado es %.2f",num1-num2);
-			break;
+				break;
 			
 			case "multiplicacion":
 				System.out.printf("El resultado es %.2f",num1*num2);
-			break;
+				break;
 			
 			case "division":
 				System.out.printf("El resultado es %.2f",num1/num2);
-			break;
+				break;
 			
 			case "raiz":
 				num1 = Math.sqrt(num1);
 				System.out.printf("El resultado es %.2f",Math.pow(num1, num2));
+				break;
+			
+			default:
+				System.out.println("Opción incorrecta");
 		}
 				
 		teclado.close();

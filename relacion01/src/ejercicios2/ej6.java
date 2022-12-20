@@ -12,22 +12,20 @@ public class ej6 {
 		
 		Scanner teclado = new Scanner (System.in);
 		
-		System.out.println("Introduce el primer parámetro A");
+		System.out.println("Introduce la recta 1:");
+		System.out.println("A1 ");
 		double pa1 = teclado.nextDouble();
-		
-		System.out.println("Introduce el segundo parámetro A");
-		double pa2 = teclado.nextDouble();
-		
-		System.out.println("Introduce el primer parámetro B");
+		System.out.println("B1 ");
 		double pb1 = teclado.nextDouble();
-		
-		System.out.println("Introduce el segundo parámetro B");
-		double pb2 = teclado.nextDouble();
-		
-		System.out.println("Introduce el primer parámetro C");
+		System.out.println("C1 ");
 		double pc1 = teclado.nextDouble();
 		
-		System.out.println("Introduce el segundo parámetro C");
+		System.out.println("Introduce la recta 2:");
+		System.out.println("A2 ");
+		double pa2 = teclado.nextDouble();
+		System.out.println("B2 ");
+		double pb2 = teclado.nextDouble();
+		System.out.println("C2 ");
 		double pc2 = teclado.nextDouble();
 		
 		
@@ -49,7 +47,6 @@ public class ej6 {
 				System.out.println("y coincidentes");
 			}
 		}
-		
 		
 		teclado.close();
 		
