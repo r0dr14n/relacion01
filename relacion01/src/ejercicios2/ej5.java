@@ -6,7 +6,7 @@ public class ej5 {
 
 	public static void main(String[] args) {
 		/*Dadas dos casillas de un tablero de ajedrez por la fila y columna que ocupan, comprobar
-		si están en la misma fila, columna, o en la misma diagonal. */
+		si están en la misma fila, columna, o en la misma diagonal.*/
 
 			
 		Scanner teclado = new Scanner (System.in);
@@ -36,6 +36,7 @@ public class ej5 {
 		fila2 = teclado.nextInt();
 		System.out.println("Columna (pieza 2):");
 		col2 = teclado.nextInt();
+		
 		
 		if (fila1 <1 || fila1 >8 || fila2 <1 || fila2 >8 ||
 			col1 <1 || col1 >8 || col2 <1 || col2 >8) {
