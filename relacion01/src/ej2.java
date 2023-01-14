@@ -26,9 +26,7 @@ public class ej2 {
 		{
 			System.out.println("El número debe estar entre el 1 y el 10");
 		}
-		
 		teclado.close();
-		
 	}
 
 }
